@@ -292,6 +292,7 @@
 
     .fondo-personalizado-burbuja
       .burbuja.right(style="bottom: 33%;")
+      .burbuja.left(style="bottom: 0;")
       .fondo-personalizado-burbuja__contenido
         .row.justify-content-center.mb-5
           .col-lg-10
@@ -334,7 +335,7 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 505px;")
         
-        .row.justify-content-center
+        .row.justify-content-center.mb-5
           .col-lg-4.col-md-8
             .bloque-codigo-personalizado
               .cabecera-bloque-codigo.p-4.py-3
@@ -353,8 +354,145 @@
                   | src TIME NOT NULL,
                   br
                   | disposition VARCHAR(10) NOT NULL
-        
 
+    .row.align-items-center.mb-5
+      .col-auto.d-none.d-sm-block
+        img(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
+      .col
+        p.mb-0 Algunos sistemas, para abreviar en la decisión de no nulidad, acostumbra usar el acrónimo NN para representar NOT NULL.
+
+    Separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Tipos de bases de datos
+    
+    p.mb-5 Las bases de datos han evolucionado a lo largo del tiempo, usando diferentes tipos de modelos o enfoques, se ha comprobado que algunos de ellos tienen mejor desempeño en distintos tipos de aplicación. La estructura en la que se configuran los datos al interior de las bases de datos presenta una forma de clasificación (Kyocera, 2021):
+
+    .row.mb-4 
+      .col-lg-7
+        AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
+          div.ms-md-5(titulo="Bases de datos con estructura jerárquica")
+            .row.align-items-center.mb-4
+              .col-md-3
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
+              .col-md-9
+                p.mb-0 Las primeras bases de datos empleadas son las de estructura jerárquica. Las relaciones entre registros forman una estructura en árbol. En la actualidad, un ejemplo de estas bases de datos es la base de datos LDAP, usada para el sistema de directorio de datos tales como usuario, dispositivos, nombres, contraseñas, direcciones etc., dentro de una red de computadores.
+          div.ms-md-5(titulo="Bases de datos con estructura en red")
+            .row.align-items-center.mb-4
+              .col-md-3
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
+              .col-md-9
+                p.mb-0 Esta estructura es un poco más compleja que la anterior, porque contiene otras relaciones de las jerárquicas, admitiendo relaciones de cada registro con otros, de manera tal que puede seguir distintos caminos para acceder a la información.
+          div.ms-md-5(titulo="Bases de datos con estructura relacional")
+            .row.align-items-center.mb-4
+              .col-md-3
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
+              .col-md-9
+                p.mb-0 Estas bases de datos son multipropósito, lo que las hace las más extendidas en la industria y más empleadas, pero son las más complejas de aprender, por lo que solo se abordará el diseño e implementación de este tipo de bases de datos. Se basan en tablas como las que se presentó en la figura "Base de datos de llamadas telefónicas" y en la relación de los datos de unas tablas con otras.
+          div.ms-md-5(titulo="Bases de datos con estructura multidimensional")
+            .row.align-items-center.mb-4
+              .col-md-3
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
+              .col-md-9
+                p.mb-0 Es la extensión de las bases de datos de estructuras relacionales. Como se vio en las relacionales, se basan en estructuras bidimensionales (tablas), mientras que la multidimensional en cubos (tres dimensiones), o más complejas con N dimensiones.
+          div.ms-md-5(titulo="Bases de datos con estructura orientada a objetos")
+            .row.align-items-center.mb-4
+              .col-md-3
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
+              .col-md-9
+                p.mb-0 Una base de datos orientada a objetos es un sistema de gestión de base de datos mediante el cual representamos la información en forma de objetos, que son utilizados en programación orientada a objetos.
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/21.png",style="max-width: 505px;") 
+    
+    .row.align-items-center.mb-3
+      .col-lg-8
+        p.mb-0 Cada tipo de bases de datos tiene un ámbito de aplicación en el que su desempeño es mejor. Por ejemplo, las bases de datos jerárquicas tienen un mejor desempeño en operaciones de consulta de datos puntuales, mientras que las de datos relacionales son precisas para garantizar la calidad de los datos y la no repetición de los mismos, aunque no muy optimizadas para hacer consultas, y, finalmente, las multidimensionales, son muy útiles para análisis estadístico de datos históricos de volúmenes inmensos de datos. Aparte del tipo de datos, existe otro tipo de clasificaciones ya no según la estructura en que se almacenan los datos, sino de acuerdo con la naturaleza de los datos.
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/22.png",style="max-width: 400px;")
+
+    Separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Clasificación de bases de datos
+    
+    p.mb-5 Los datos se pueden clasificar según la naturaleza de los datos que se almacenan en la base de datos. La siguiente tabla muestra una compilación de estas clasificaciones.
+
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 #[b Tabla 3.] Clasificación
+    
+    .tabla-a.tabla-personalizada-1.tam-1.mb-5
+      table
+        thead
+          tr
+            th.text-start(style="min-width: 160px;") Criterio de clasificación
+            th.text-start(style="min-width: 110px;") Clasificación
+            th(style="min-width: 300px;") Descripción
+        tbody
+          tr
+            td(rowspan="2") #[b Según la variabilidad de los datos]
+            td #[b Bases de datos estáticas]
+            td
+              p.mb-4 Son bases de datos cuyos datos son históricos, es decir, ya no se pueden modificar, se usan comúnmente para estudiar el comportamiento de los datos a través del tiempo.
+              p.mb-4 Generalmente, a este tipo de bases de datos se les llama bodega de datos.
+              p.mb-0 Muchas de estas bases de datos se almacenan en cubos para su análisis, y se les conoce como OLAP es el acrónimo en inglés de Procesamiento Analítico en Línea (#[em On-Line Analytical Processing]).
+          tr
+            td #[b Bases de datos dinámicas]
+            td
+              p.mb-4 Estos datos se almacenan y pueden ser modificados, agregados, borrados y consultados en cualquier momento, por ejemplo: un sistema de facturación.
+              p.mb-0 A estos sistemas se les denomina transaccionales, porque cada operación de guardar, borrar o editar, se configura como una transacción. OLTP es la sigla en inglés de Procesamiento de Transacciones en Línea (#[em On-Line Transaction Processing]).
+          tr
+            td(rowspan="2") #[b Según el contenido]
+            td #[b Bases de datos documentales]
+            td Permiten la indexación a texto completo, y en líneas generales realizar búsquedas más potentes.
+          tr
+            td #[b Base de datos deductivos]
+            td Un sistema de base de datos deductivos, es un sistema de base de datos, pero con la diferencia que permite hacer deducciones a través de inferencias. Se basa principalmente en reglas y hechos que son almacenados en la base de datos. También las bases de datos deductivas son llamadas base de datos lógica, a raíz que se basan en lógica matemática.
+
+    .row.mb-4
+      .col-lg-7
+        p.mb-0 Pueden existir otras clasificaciones orientadas al ámbito de uso, sin embargo, se presentan las más comunes en el ejercicio del desarrollo de #[em software]. Las bases de datos relacionales es de obligatorio dominio en cualquiera de los casos, debido a que los conceptos de estas son reutilizables en casi todos los otros tipos.
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/23.png",style="max-width: 502px;")
+    
+    Separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 Sistema de gestión de bases de datos
+
+    .row.mb-4.align-items-center
+      .col-lg-8
+        p.mb-4 Un sistema de gestión de la base de datos es un programa de computador que permite definir, crear y mantener los datos de una base de datos, controlando el acceso:
+
+        .fondo-color-sistema-m.p-2.borde-12.mb-4
+          ul.lista-ul.lista-personalizada-1
+            li
+              i.fas.fa-database
+              span Permiten la definición de la base de datos usando un lenguaje de definición de datos.
+            li
+              i.fas.fa-database
+              span Permiten la inserción, actualización, eliminación y consulta de datos usando un lenguaje de manejo de datos.
+            li
+              i.fas.fa-database
+              span Proporcionan un acceso controlado a la base de datos (con autenticación, roles, niveles de acceso).
+            li
+              i.fas.fa-database
+              span Concurrencia (varios usuarios a la vez accediendo o manipulando los datos) y multitarea.
+            li
+              i.fas.fa-database
+              span Algunos SGDB permiten administrar el catálogo de datos.
+
+        p.mb-0 Los SGBD son una herramienta muy útil, sin embargo, se podría decir que los SGBD son un poco más complejos, porque los usuarios ven más datos y sus relaciones, de los que realmente se necesitan.
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 400px;")
 
         
       

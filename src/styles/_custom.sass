@@ -133,6 +133,8 @@
   background-color: $color-sistema-m !important
 .fondo-color-sistema-n
   background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
 .fondo-color-primario
   background-color: $color-primario !important
 
@@ -212,3 +214,24 @@ ul.lista-ul.lista-personalizada-1
       background-color: $color-sistema-h
     tr:nth-child(even)
       background-color: white
+
+//acordiones
+.acordion-personalizado-1
+  &__tarjeta
+    .acordion__header
+      margin-bottom: 1.2rem !important
+    padding-right: 1.2rem !important
+    padding-left: 1.2rem !important
+    padding-top: 1.2rem !important
+    border-radius: 4px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-o
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important
