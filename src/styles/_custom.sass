@@ -52,9 +52,34 @@
     span
       color: $color-sistema-texto
 
+//titulos
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
 //bordes
 .borde-10
   border-radius: 10px !important
+.borde-lg-10
+  @media screen and (max-width: $bp-max-md)
+    border-radius: 10px !important
 .borde-12
   border-radius: 12px !important
 .borde-20
@@ -151,6 +176,22 @@
   &__contenido
     position: relative
 
+.fondo-personalizado-5
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/49.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
 //color de fondos
 .fondo-color-sistema-i
   background-color: $color-sistema-i !important
@@ -168,6 +209,8 @@
   background-color: $color-sistema-o !important
 .fondo-color-sistema-p
   background-color: $color-sistema-p !important
+.fondo-color-sistema-q
+  background-color: $color-sistema-q !important
 .fondo-color-primario
   background-color: $color-primario !important
 .fondo-color-acento-contenido
@@ -283,3 +326,17 @@ ul.lista-ul.lista-personalizada-2
           color: $color-sistema-texto !important
   .acordion__accion__btn--a
     background-color: $color-acento-botones !important
+
+//Slyders
+.slider-personalizado-1
+  .slyder-f__btn i
+    color: $color-acento-botones !important
+
+//textos
+.texto-num-1
+  position: absolute
+  top: 0
+  left: 0
+  color: #DEBEFB
+  font-size: 40px
+  font-weight: bold

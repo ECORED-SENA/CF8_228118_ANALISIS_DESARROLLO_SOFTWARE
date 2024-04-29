@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1029" height="338" viewBox="0 0 1029 338">
+  <g id="Grupo_1101134" data-name="Grupo 1101134" transform="translate(-286 -7596)">
+    <g id="Grupo_1101116" data-name="Grupo 1101116" transform="translate(432 7661.77)">
+      <path id="Sustracción_1" data-name="Sustracción 1" d="M226.461,93H0a115.476,115.476,0,0,1,226.461,0Z" transform="translate(0 226.461) rotate(-90)" fill="#2ed4bf"/>
+      <ellipse id="Elipse_11507" data-name="Elipse 11507" cx="86.5" cy="87" rx="86.5" ry="87" transform="translate(30 198.357) rotate(-90)" fill="#f2f6ff"/>
+    </g>
+    <g id="Grupo_1101117" data-name="Grupo 1101117" transform="translate(1147 7889.477) rotate(180)">
+      <path id="Sustracción_1-2" data-name="Sustracción 1" d="M226.461,93H0a115.476,115.476,0,0,1,226.461,0Z" transform="translate(0 226.461) rotate(-90)" fill="#f3d457"/>
+      <ellipse id="Elipse_11507-2" data-name="Elipse 11507" cx="86.5" cy="87" rx="86.5" ry="87" transform="translate(30 198.357) rotate(-90)" fill="#f2f6ff"/>
+    </g>
+    <line id="Línea_875" data-name="Línea 875" y1="55" x2="63.5" transform="translate(1039 7690.5)" fill="none" stroke="#d1b132" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_878" data-name="Línea 878" x1="62" y1="60" transform="translate(483.5 7685.5)" fill="none" stroke="#198b7d" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_876" data-name="Línea 876" x2="73.5" transform="translate(1068 7775.5)" fill="none" stroke="#d1b132" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_879" data-name="Línea 879" x1="75" y1="31" transform="translate(442.5 7735.5)" fill="none" stroke="#198b7d" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_882" data-name="Línea 882" x1="79" y2="15" transform="translate(438.5 7781.5)" fill="none" stroke="#198b7d" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_877" data-name="Línea 877" x2="67.5" y2="54" transform="translate(1039 7805.5)" fill="none" stroke="#d1b132" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_880" data-name="Línea 880" x1="69" y2="62" transform="translate(476.5 7796.5)" fill="none" stroke="#198b7d" stroke-linecap="round" stroke-width="2"/>
+    <g id="Rectángulo_401592" data-name="Rectángulo 401592" transform="translate(913.5 7745)" fill="#f2f6ff" stroke="#aec4fa" stroke-width="5">
+      <rect width="154" height="60" stroke="none"/>
+      <rect x="2.5" y="2.5" width="149" height="55" fill="none"/>
+    </g>
+    <text id="Cuenta" transform="translate(969.322 7781)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Cuenta</tspan></text>
+    <g id="Trazado_883911" data-name="Trazado 883911" transform="translate(515.5 7745)" fill="#f2f6ff">
+      <path d="M 151.5 57.5 L 2.5 57.5 L 2.5 2.5 L 151.5 2.5 L 151.5 57.5 Z" stroke="none"/>
+      <path d="M 5 5 L 5 55 L 149 55 L 149 5 L 5 5 M 0 0 L 154 0 L 154 60 L 0 60 L 0 0 Z" stroke="none" fill="#aec4fa"/>
+    </g>
+    <text id="Persona" transform="translate(555.765 7781)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Persona</tspan></text>
+    <g id="Rectángulo_401593" data-name="Rectángulo 401593" transform="translate(717.469 7775.5) rotate(-45)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2">
+      <rect width="113.748" height="113.748" stroke="none"/>
+      <rect x="0.5" y="0.5" width="112.748" height="112.748" fill="none"/>
+    </g>
+    <line id="Línea_881" data-name="Línea 881" x2="244" transform="translate(669.5 7776.5)" fill="none" stroke="#aec4fa" stroke-linecap="round" stroke-width="5"/>
+    <g id="Rectángulo_401591" data-name="Rectángulo 401591" transform="translate(728.147 7775.5) rotate(-45)" fill="#f2f6ff" stroke="#aec4fa" stroke-width="5">
+      <rect width="98.647" height="98.647" stroke="none"/>
+      <rect x="2.5" y="2.5" width="93.647" height="93.647" fill="none"/>
+    </g>
+    <text id="Titular" transform="translate(774.479 7781)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Titular</tspan></text>
+    <g id="Rectángulo_401594" data-name="Rectángulo 401594" transform="translate(508 7740.078)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2">
+      <rect width="169" height="69.844" stroke="none"/>
+      <rect x="0.5" y="0.5" width="168" height="68.844" fill="none"/>
+    </g>
+    <g id="Rectángulo_401595" data-name="Rectángulo 401595" transform="translate(905 7740.078)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2">
+      <rect width="169" height="69.844" stroke="none"/>
+      <rect x="0.5" y="0.5" width="168" height="68.844" fill="none"/>
+    </g>
+    <g id="Grupo_1101118" data-name="Grupo 1101118" transform="translate(-63 3)">
+      <circle id="Elipse_11511" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#27b8a6"/>
+      <circle id="Elipse_11515" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#2b7a70"/>
+    </g>
+    <g id="Grupo_1101122" data-name="Grupo 1101122" transform="translate(556 8)">
+      <circle id="Elipse_11511-2" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#d1b132"/>
+      <circle id="Elipse_11515-2" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#95802c"/>
+    </g>
+    <g id="Grupo_1101125" data-name="Grupo 1101125" transform="translate(595 94)">
+      <circle id="Elipse_11511-3" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#d1b132"/>
+      <circle id="Elipse_11515-3" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#95802c"/>
+    </g>
+    <g id="Grupo_1101126" data-name="Grupo 1101126" transform="translate(560 177)">
+      <circle id="Elipse_11511-4" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#d1b132"/>
+      <circle id="Elipse_11515-4" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#95802c"/>
+    </g>
+    <g id="Grupo_1101119" data-name="Grupo 1101119" transform="translate(-104 53)">
+      <circle id="Elipse_11511-5" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#27b8a6"/>
+      <circle id="Elipse_11515-5" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#2b7a70"/>
+    </g>
+    <g id="Grupo_1101120" data-name="Grupo 1101120" transform="translate(-108 117)">
+      <circle id="Elipse_11511-6" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#27b8a6"/>
+      <circle id="Elipse_11515-6" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#2b7a70"/>
+    </g>
+    <g id="Grupo_1101121" data-name="Grupo 1101121" transform="translate(-70 176)">
+      <circle id="Elipse_11511-7" data-name="Elipse 11511" cx="10.5" cy="10.5" r="10.5" transform="translate(536 7672)" fill="#27b8a6"/>
+      <circle id="Elipse_11515-7" data-name="Elipse 11515" cx="5.5" cy="5.5" r="5.5" transform="translate(541 7677)" fill="#2b7a70"/>
+    </g>
+    <rect id="Rectángulo_401596" data-name="Rectángulo 401596" width="126" height="45" rx="22.5" transform="translate(307 7596)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401597" data-name="Rectángulo 401597" width="126" height="45" rx="22.5" transform="translate(286 7691)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401601" data-name="Rectángulo 401601" width="144" height="45" rx="22.5" transform="translate(1126 7596)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401598" data-name="Rectángulo 401598" width="126" height="45" rx="22.5" transform="translate(286 7806)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401602" data-name="Rectángulo 401602" width="126" height="45" rx="22.5" transform="translate(1189 7755)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401599" data-name="Rectángulo 401599" width="126" height="45" rx="22.5" transform="translate(307 7889)" fill="#f2e5fd"/>
+    <rect id="Rectángulo_401603" data-name="Rectángulo 401603" width="144" height="45" rx="22.5" transform="translate(1126 7880)" fill="#f2e5fd"/>
+    <text id="nombres" transform="translate(339 7624)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">nombres</tspan></text>
+    <text id="apellidos" transform="translate(318 7719)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">apellidos</tspan></text>
+    <text id="número_cuenta" transform="translate(1142 7624)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">número_cuenta</tspan></text>
+    <text id="edad" transform="translate(332 7834)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">edad</tspan></text>
+    <text id="saldo" transform="translate(1230 7783)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">saldo</tspan></text>
+    <text id="identificación" transform="translate(325 7917)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">identificación</tspan></text>
+    <text id="fecha_creación" transform="translate(1144 7908)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">fecha_creación</tspan></text>
+    <line id="Línea_883" data-name="Línea 883" x2="51" transform="translate(432.5 7618.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_891" data-name="Línea 891" x2="20.5" transform="translate(1105 7618.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_895" data-name="Línea 895" x2="20.5" transform="translate(1105 7902.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_893" data-name="Línea 893" x2="48" transform="translate(1141.5 7777.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_890" data-name="Línea 890" x2="51" transform="translate(425.5 7912.27)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_884" data-name="Línea 884" y2="60" transform="translate(483.5 7618.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_892" data-name="Línea 892" y2="67" transform="translate(1105 7618.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_894" data-name="Línea 894" y2="43" transform="translate(1105 7859.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_889" data-name="Línea 889" y2="49" transform="translate(476.5 7863.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_885" data-name="Línea 885" y1="25" transform="translate(442.5 7710.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_888" data-name="Línea 888" y1="25" transform="translate(439.155 7806.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_886" data-name="Línea 886" x1="30" transform="translate(412.5 7710.5)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+    <line id="Línea_887" data-name="Línea 887" x1="23.531" transform="translate(412.5 7830.932)" fill="none" stroke="#a854f3" stroke-width="1" stroke-dasharray="2"/>
+  </g>
+</svg>
