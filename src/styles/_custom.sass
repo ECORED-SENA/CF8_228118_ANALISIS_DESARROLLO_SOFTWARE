@@ -78,6 +78,21 @@
     &.left
       left: 0
       transform: translateX(calc( -50px -  147px))
+  .burbuja2
+    height: 178px
+    width: 178px
+    background-color: $color-sistema-p
+    -webkit-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    -moz-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    border-radius: 50%
+    position: absolute
+    &.right
+      right: 0
+      transform: translateX(calc(  89px))
+    &.left
+      left: 0
+      transform: translateX(calc( -20px -  89px))
   &__contenido
     position: relative
 
@@ -120,6 +135,22 @@
   &__contenido
     position: relative
 
+.fondo-personalizado-4
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/31.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
 //color de fondos
 .fondo-color-sistema-i
   background-color: $color-sistema-i !important
@@ -135,8 +166,12 @@
   background-color: $color-sistema-n !important
 .fondo-color-sistema-o
   background-color: $color-sistema-o !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
 .fondo-color-primario
   background-color: $color-primario !important
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido !important
 
 //colores
 .color-sistema-l
@@ -169,6 +204,19 @@ ul.lista-ul.lista-personalizada-1
     color: $color-primario
     font-size: 0.7em
     margin-top: 0.2em
+ul.lista-ul.lista-personalizada-2
+  margin-bottom: 0 !important
+  li
+    display: flex
+    margin-bottom: 6px !important
+  .lista-num-per-1
+    display: inline-flex
+    width: 24px
+    height: 24px
+    background-color: $color-acento-contenido
+    align-items: center
+    justify-content: center
+    font-weight: bold
 
 //bloque codigo
 .bloque-codigo-personalizado

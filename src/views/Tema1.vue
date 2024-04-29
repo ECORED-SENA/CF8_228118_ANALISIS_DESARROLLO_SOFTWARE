@@ -65,7 +65,7 @@
         p.mb-0.color-sistema-l Los metadatos de la figura anterior serían la definición de cada tipo de dato como se lista a continuación.
         p.mb-4.color-sistema-l #[b calldate]: tiene la estructura YYYY-MM-DD HH:MI:SS.Z, donde:
 
-        .fondo-color-sistema-m.p-2.borde-12.mb-4
+        .fondo-color-sistema-m.p-3.borde-12.mb-4
           ul.lista-ul.lista-personalizada-1
             li
               i.fas.fa-database
@@ -471,7 +471,7 @@
       .col-lg-8
         p.mb-4 Un sistema de gestión de la base de datos es un programa de computador que permite definir, crear y mantener los datos de una base de datos, controlando el acceso:
 
-        .fondo-color-sistema-m.p-2.borde-12.mb-4
+        .fondo-color-sistema-m.p-3.borde-12.mb-4
           ul.lista-ul.lista-personalizada-1
             li
               i.fas.fa-database
