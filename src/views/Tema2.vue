@@ -485,11 +485,75 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/71.png",style="max-width: 502px;")
 
-    SlyderF.slider-personalizado-1(columnas="col-lg-6 col-xl-4")
-      .fondo-color-primario.p-3
-        span.texto-num-1 1
-        figure.mb-4
-          img.mx-auto(src="@/assets/curso/temas/1.png",style="max-width: 100px;")
+    .fondo-personalizado-6.pos-1.mb-5
+      .fondo-personalizado-6__contenido.pb-5
+        SlyderF.slider-personalizado-1.pb-5(columnas="col-lg-6 col-xl-4")
+          .fondo-color-primario.borde-20.p-3.h-100
+            .position-relative
+              span.texto-num-1 1
+              figure.mb-5
+                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
+              p.mb-4.text-white Dividir una tabla con muchas columnas.
+          .fondo-color-sistema-j.borde-20.p-3.h-100
+            .position-relative
+              span.texto-num-2 2
+              figure.mb-5
+                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
+              p.mb-4 Aislar parte de una tabla por motivos de seguridad.
+          .fondo-color-primario.borde-20.p-3.h-100
+            .position-relative
+              span.texto-num-1 3
+              figure.mb-5
+                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
+              p.mb-4.text-white Almacenar datos de corta duración y que podrían eliminarse fácilmente, borrando la tabla periódicamente.
+          .fondo-color-sistema-j.borde-20.p-3.h-100
+            .position-relative
+              span.texto-num-2 4
+              figure.mb-5
+                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
+              p.mb-4 Almacenar información que solo se aplique a un subconjunto de la tabla principal.
+
+    p.mb-5 Volviendo al ejemplo del banco, esta vez se supone que la empresa necesita información sobre sus empleados lo que, a la vez, pueden ser clientes del banco.
+
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 #[b Figura 14.] Diagrama entidad relación persona-empleado
+
+    .fondo-personalizado-burbuja.fondo-color-sistema-p.mb-5.borde-lg-10(style="overflow: hidden;")
+      .burbuja2.d-none.d-lg-block.left(style="top: 35px;")
+      .burbuja2.d-none.d-lg-block.right(style="top: -75px;")
+      .burbuja2.d-none.d-lg-block(style="bottom: -100px;left: 13%;")
+      .burbuja2.right.d-lg-none(style="top: 19%;")
+      .burbuja2.d-lg-none(style="bottom: -100px;left: 40px;")
+      .fondo-personalizado-burbuja__contenido.p-4.py-5.py-lg-4
+        figure.d-none.d-lg-block
+          img.mx-auto(src="@/assets/curso/temas/74.svg",style="max-width: 1029px;",alt="Imagen que presenta el diagrama entidad relación persona-empleado.")
+        figure.d-lg-none
+          img.mx-auto(src="@/assets/curso/temas/75.svg",style="max-width: 451px;",alt="Imagen que presenta el diagrama entidad relación persona-empleado.")
+
+    .row.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        .fondo-color-sistema-n.px-4.py-5.borde-10.mb-4
+          p.mb-0 #[b REGLA DE MAPEO 1:1 de modelo entidad-relación a modelo relacional:] en el momento de convertir la relación o con multiplicidad 1:1 a tablas, la relación uno a uno se convierte en una columna de la tabla empleado con restricción de unicidad (#[em Unique Key o Primary Key]), como se muestra en el siguiente diagrama relacional.
+        p.mb-0 Como se puede inferir de la siguiente figura, se crea una tabla donde se relacionan los datos de las personas que son empleados del banco, a través de una columna que se llama #[b id_persona], pero es común entre algunos diseñadores ponerle el nombre que los relacione con la tabla a la que pertenece, es decir, #[b id_empleado], pero esto queda al criterio del diseñador.
+      .col-lg-5
+        figure
+          img.mx-auto(src="@/assets/curso/temas/76.png",style="max-width: 502px;")
+
+    .row.justify-content-center
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 15.] Diagrama relacional 1:1
+        figure.d-none.d-lg-block
+          img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 1028px;",alt="Imagen que presenta el diagrama relacional 1:1.")
+
+        .fondo-personalizado-burbuja.fondo-color-sistema-p.borde-10.mb-5.d-lg-none(style="overflow: hidden;")
+          .burbuja2.right(style="top: 19%;")
+          .burbuja2(style="bottom: -100px;left: 40px;")
+          .fondo-personalizado-burbuja__contenido.p-4.py-5.py-lg-4
+            figure
+              img.mx-auto(src="@/assets/curso/temas/78.png",style="max-width: 331px;",alt="Imagen que presenta el diagrama relacional 1:1.")
+    
+
 
 
 </template>

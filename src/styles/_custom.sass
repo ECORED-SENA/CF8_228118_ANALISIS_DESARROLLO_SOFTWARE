@@ -75,6 +75,8 @@
     z-index: 0
 
 //bordes
+.borde-8
+  border-radius: 8px !important
 .borde-10
   border-radius: 10px !important
 .borde-lg-10
@@ -187,6 +189,41 @@
     bottom: 0
     z-index: 0
     background-image: url(../assets/curso/temas/49.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/73.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 45px
+
+.fondo-personalizado-7
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/97.png)
     background-repeat: no-repeat
     background-size: cover
   &__contenido
@@ -333,10 +370,12 @@ ul.lista-ul.lista-personalizada-2
     color: $color-acento-botones !important
 
 //textos
-.texto-num-1
+.texto-num-1,.texto-num-2
   position: absolute
-  top: 0
+  top: -10px
   left: 0
   color: #DEBEFB
-  font-size: 40px
+  font-size: 35px
   font-weight: bold
+.texto-num-2
+  color: $color-secundario
