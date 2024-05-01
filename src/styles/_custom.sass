@@ -79,11 +79,15 @@
   border-radius: 8px !important
 .borde-10
   border-radius: 10px !important
+.borde-11
+  border-radius: 11px !important
 .borde-lg-10
   @media screen and (max-width: $bp-max-md)
     border-radius: 10px !important
 .borde-12
   border-radius: 12px !important
+.borde-16
+  border-radius: 16px !important
 .borde-20
   border-radius: 20px !important
 
@@ -228,6 +232,25 @@
     background-size: cover
   &__contenido
     position: relative
+  &.pos-1
+    &:before
+      top: 35%
+
+.fondo-personalizado-8
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/116.png)
+    background-repeat: no-repeat
+    background-size: 100% 100%
+  &__contenido
+    position: relative
 
 //color de fondos
 .fondo-color-sistema-i
@@ -256,6 +279,8 @@
 //colores
 .color-sistema-l
   color: $color-sistema-l !important
+.color-acento-contenido-p
+  color: $color-acento-contenido !important
   
 //bloque de textos
 .bloque-texto-b.bloque-texto-personalizado-1
@@ -273,6 +298,13 @@
     bottom: 35px
   i
     font-size: 1.8em
+
+.bloque-texto-b.bloque-texto-personalizado-2
+  &:before
+    background-color: $color-sistema-i
+    bottom: 15%
+    left: 50%
+    top: 45%
 
 //listas
 ul.lista-ul.lista-personalizada-1
