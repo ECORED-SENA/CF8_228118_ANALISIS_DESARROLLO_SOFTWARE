@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos generales de base de datos
@@ -17,7 +17,7 @@
             h4.mb-0 El conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información
             i.fas.fa-quote-right
           p.mb-0.position-relative (RAE, 2001).
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-out")
         figure
           img.mx-auto(src="@/assets/curso/temas/4.png",style="max-width: 505px;")
     
@@ -25,22 +25,22 @@
       .fondo-personalizado-3__contenido.py-4
         img.position-absolute(src="@/assets/curso/temas/9.png",style="max-width: 81px;bottom: 50px;right: 0;")
         .row.justify-content-center.py-5
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
             .fondo-color-primario.borde-10.p-4.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/5.png",style="max-width: 108px;")
               p.mb-0.text-white De acuerdo con esta definición, una hoja de cálculo de Excel puede considerarse una base de datos, o un conjunto de archivos debidamente organizados, o la lista de nombres y teléfonos que está en nuestros #[em smartphones]. En principio, es correcto llamarle base de datos a estos ejemplos, sin embargo, en el contexto de desarrollo de #[em software], se referirá a ese conjunto de información que puede ser almacenada en grandes cantidades de forma organizada y es gestionada a través de un #[b Sistema de Gestión de Bases de Datos] (SGBD).
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-up")
             .fondo-color-primario.borde-10.p-4.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 108px;")
               p.mb-0.text-white Para organizar y definir la información de forma sistemática, las bases de datos también deben poder almacenar una descripción precisa de los datos que contiene, conocida como #[b metadatos], a los que se le relaciona el tipo de información que es conceptualmente guardada (es decir, si se agrega una explicación de la naturaleza del dato en la empresa), se da origen a lo que conoce como #[b diccionario de datos o catálogo de datos].
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
             .fondo-color-sistema-j.borde-10.h-100.align-content-end
               figure
                 img.mx-auto(src="@/assets/curso/temas/6.png",style="max-width: 389px;")
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10
         .fondo-color-sistema-k.p-3.ps-4.borde-10
           .row.align-items-center 
@@ -51,7 +51,7 @@
               p.mb-4 #[b Ejemplo 1 - Determinar los metadatos del siguiente problema ]
               p.mb-0 Estos diseños están concebidos para emplear Sistemas de Gestión de Bases de Datos (en adelante SGDB), que es un sistema o servicio informático que permite a las personas definir, crear, dar soporte y mantenimiento a las bases de datos, controlando el acceso de forma segura.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1.] Base de datos de llamadas telefónicas
@@ -59,7 +59,7 @@
           img.mx-auto(src="@/assets/curso/temas/11.svg",style="max-width: 820px;",alt="Base de datos de llamadas telefónicas.")
 
     .row.mb-4.align-items-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p.mb-4 La figura muestra una tabla de datos que donde en cada columna se agrupa un tipo de dato particular, y cada fila es el conjunto de datos que se llama registro y comparten una relación (la relación es que cada fila corresponde a una única llamada telefónica); a esta estructura se le llama bidimensional, aquí filas y columnas son las dos dimensiones.
 
         p.mb-0.color-sistema-l Los metadatos de la figura anterior serían la definición de cada tipo de dato como se lista a continuación.
@@ -87,7 +87,7 @@
               span Z un dato numérico de un digito (para representar milésimas de segundo).
 
         p.mb-0 Como este es el conjunto de datos de la primera columna, puede que use un término que describa lo anterior con una sola palabra que es TIMESTAMP, de esta forma esa primera columna puede quedar correctamente descrita como:
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/12.png",style="max-width: 400px;")
 
@@ -101,10 +101,10 @@
             .col
               p.mb-0 #[b calldate TIMESTAMP(1)]  Donde 1 es el número de dígitos de milisegundos (Z).
     
-    p.mb-5 src y dst: empleado para fuente de la llamada o llamante (src) y destino de la llamada (dst), puede ser un número telefónico o de extensión telefónica. Algunos tienen el código de país seguido del signo más, ejemplo: 57+3155008002. Por lo tanto, se puede describir como una cadena de texto que no superará los 25 caracteres, pero puede tener menos de 25 caracteres, así el metadato iría descrito:
+    p.mb-5(data-aos="fade") src y dst: empleado para fuente de la llamada o llamante (src) y destino de la llamada (dst), puede ser un número telefónico o de extensión telefónica. Algunos tienen el código de país seguido del signo más, ejemplo: 57+3155008002. Por lo tanto, se puede describir como una cadena de texto que no superará los 25 caracteres, pero puede tener menos de 25 caracteres, así el metadato iría descrito:
 
     .row.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-up")
         ul.lista-ul.lista-personalizada-1
           li
             i.fas.fa-database
@@ -119,11 +119,11 @@
             i.fas.fa-database
             span #[b disposition] Indica si la llamada es atendida ANSWER, no atendida NO ANSWER, o si falló la FAIL. Se puede representar con una cadena de 10 caracteres.
 
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 502px;")
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-4.col-md-8
         .bloque-codigo-personalizado
           .cabecera-bloque-codigo.p-4.py-3
@@ -143,9 +143,9 @@
               br
               | disposition VARCHAR(10)
 
-    p.mb-5 Note que cada uno de ellos fue separado por una coma, para que se diferencie de los demás.
+    p.mb-5(data-aos="fade") Note que cada uno de ellos fue separado por una coma, para que se diferencie de los demás.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-out")
       .col-lg-8
         .fondo-color-sistema-k.p-3.ps-4.borde-20
           .row.align-items-center
@@ -160,7 +160,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 1.] Diccionario de datos
     
-    .tabla-a.tabla-personalizada-1.mb-4.tam-1
+    .tabla-a.tabla-personalizada-1.mb-4.tam-1(data-aos="zoom-in-out")
       table
         thead
           tr
@@ -205,25 +205,25 @@
             td Estado final en que se considera quedó la llamada.
 
     .row.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Como se puede notar en la tabla anterior, un diccionario de datos aporta información de la estructura de los datos y el uso que se da a cada dato en la empresa, organización o sistema de información, pero no sin antes darle un nombre a todo el conjunto de datos (primera fila), una fecha (segunda fila) y una descripción (tercera fila) del conjunto de los datos. En la tabla se puede identificar la independencia que existe entre la lógica de los datos (representado por la columna DESCRIPCIÓN del dato) y el almacenamiento físico (estructura de almacenamiento representado por las columnas TIPO DE DATO y TAMAÑO).
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 505px;")
     
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Tipos de datos y restricción de no nulidad
 
-    p.mb-5 Existen muchos tipos de datos y varían según el SGDB, porque cada sistema gestor define sus propios tipos de datos, aunque existen las equivalencias notables y otras no tan notables. A continuación, se presenta una tabla que relaciona el tipo de datos según los SGDB más comunes del mercado, como ORACLE, PostgeSQL, MySQL y SQLServer.
+    p.mb-5(data-aos="fade") Existen muchos tipos de datos y varían según el SGDB, porque cada sistema gestor define sus propios tipos de datos, aunque existen las equivalencias notables y otras no tan notables. A continuación, se presenta una tabla que relaciona el tipo de datos según los SGDB más comunes del mercado, como ORACLE, PostgeSQL, MySQL y SQLServer.
 
     .row.justify-content-center.mb-5
       .col-lg-9
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 2.] Tipos de datos según bases de datos
         
-        .tabla-a.tabla-personalizada-1
+        .tabla-a.tabla-personalizada-1(data-aos="zoom-in-out")
           table
             thead
               tr
@@ -284,9 +284,9 @@
                 td FLOAT
 
     .row.mb-5 
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Según el tipo de sistema gestor de bases de datos, cada uno define sus tipos de datos que, de alguna forma, son muy parecidos entre ellos, o existen equivalencias; las diferencias son pocas y están relacionadas con aspectos técnicos del almacenamiento. Se pueden consultar más detalles de cada uno de ellos en los sitios oficiales de cada motor de base de datos:
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/17.png",style="max-width: 502px;")
 
@@ -296,7 +296,7 @@
       .fondo-personalizado-burbuja__contenido
         .row.justify-content-center.mb-5
           .col-lg-10
-            .tabla-a.tabla-personalizada-1.tam-1
+            .tabla-a.tabla-personalizada-1.tam-1(data-aos="fade")
               table
                 thead
                   tr
@@ -317,27 +317,27 @@
                     td SQLServer
                     td https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
           
-        .row.align-items-center.mb-4
+        .row.align-items-center.mb-4(data-aos="fade-left")
           .col-auto.d-none.d-sm-block
             img(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
           .col
             p.mb-0 Existen varios tipos de restricciones, por ahora se verá la restricción de longitud, por ejemplo:
         
-        .row.justify-content-center.mb-4
+        .row.justify-content-center.mb-4(data-aos="zoom-in-out")
           .col-lg-3.col-md-5.col-sm-7
             .fondo-color-sistema-n.p-4.borde-10
               p.mb-0.text-center src VARCHAR(25)
         
         .row.align-items-center.mb-5
-          .col-lg-7
+          .col-lg-7(data-aos="fade-up")
             p.mb-0 En él se define que el src, es una columna que no puede exceder los 25 caracteres. De la misma forma, existe una forma de definir que es obligatoria: registrar un dato en esa columna y se llama #[b restricción de no nulidad], es decir, que ninguna fila puede tener valor nulo. Así, en el ejemplo de la base de datos de llamadas telefónicas, si se define que todo y cada uno de los datos son obligatorios (usando las palabras #[b NOT NULL]), la metadata que define la estructura de los datos, quedaría así:
-          .col-lg-5.order-first.order-lg-last
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 505px;")
         
         .row.justify-content-center.mb-5
           .col-lg-4.col-md-8
-            .bloque-codigo-personalizado
+            .bloque-codigo-personalizado(data-aos="flip-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -355,7 +355,7 @@
                   br
                   | disposition VARCHAR(10) NOT NULL
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.d-none.d-sm-block
         img(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
       .col
@@ -363,10 +363,10 @@
 
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2 Tipos de bases de datos
     
-    p.mb-5 Las bases de datos han evolucionado a lo largo del tiempo, usando diferentes tipos de modelos o enfoques, se ha comprobado que algunos de ellos tienen mejor desempeño en distintos tipos de aplicación. La estructura en la que se configuran los datos al interior de las bases de datos presenta una forma de clasificación (Kyocera, 2021):
+    p.mb-5(data-aos="fade") Las bases de datos han evolucionado a lo largo del tiempo, usando diferentes tipos de modelos o enfoques, se ha comprobado que algunos de ellos tienen mejor desempeño en distintos tipos de aplicación. La estructura en la que se configuran los datos al interior de las bases de datos presenta una forma de clasificación (Kyocera, 2021):
 
     .row.mb-4 
       .col-lg-7
@@ -411,23 +411,23 @@
           img.mx-auto(src="@/assets/curso/temas/21.png",style="max-width: 505px;") 
     
     .row.align-items-center.mb-3
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p.mb-0 Cada tipo de bases de datos tiene un ámbito de aplicación en el que su desempeño es mejor. Por ejemplo, las bases de datos jerárquicas tienen un mejor desempeño en operaciones de consulta de datos puntuales, mientras que las de datos relacionales son precisas para garantizar la calidad de los datos y la no repetición de los mismos, aunque no muy optimizadas para hacer consultas, y, finalmente, las multidimensionales, son muy útiles para análisis estadístico de datos históricos de volúmenes inmensos de datos. Aparte del tipo de datos, existe otro tipo de clasificaciones ya no según la estructura en que se almacenan los datos, sino de acuerdo con la naturaleza de los datos.
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/22.png",style="max-width: 400px;")
 
     Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3 Clasificación de bases de datos
     
-    p.mb-5 Los datos se pueden clasificar según la naturaleza de los datos que se almacenan en la base de datos. La siguiente tabla muestra una compilación de estas clasificaciones.
+    p.mb-5(data-aos="fade") Los datos se pueden clasificar según la naturaleza de los datos que se almacenan en la base de datos. La siguiente tabla muestra una compilación de estas clasificaciones.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 3.] Clasificación
     
-    .tabla-a.tabla-personalizada-1.tam-1.mb-5
+    .tabla-a.tabla-personalizada-1.tam-1.mb-5(data-aos="flip-up")
       table
         thead
           tr
@@ -456,22 +456,22 @@
             td Un sistema de base de datos deductivos, es un sistema de base de datos, pero con la diferencia que permite hacer deducciones a través de inferencias. Se basa principalmente en reglas y hechos que son almacenados en la base de datos. También las bases de datos deductivas son llamadas base de datos lógica, a raíz que se basan en lógica matemática.
 
     .row.mb-4
-      .col-lg-7
+      .col-lg-7(data-aos="fade-up")
         p.mb-0 Pueden existir otras clasificaciones orientadas al ámbito de uso, sin embargo, se presentan las más comunes en el ejercicio del desarrollo de #[em software]. Las bases de datos relacionales es de obligatorio dominio en cualquiera de los casos, debido a que los conceptos de estas son reutilizables en casi todos los otros tipos.
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/23.png",style="max-width: 502px;")
     
     Separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Sistema de gestión de bases de datos
 
     .row.mb-4.align-items-center
       .col-lg-8
-        p.mb-4 Un sistema de gestión de la base de datos es un programa de computador que permite definir, crear y mantener los datos de una base de datos, controlando el acceso:
+        p.mb-4(data-aos="fade") Un sistema de gestión de la base de datos es un programa de computador que permite definir, crear y mantener los datos de una base de datos, controlando el acceso:
 
-        .fondo-color-sistema-m.p-3.borde-12.mb-4
+        .fondo-color-sistema-m.p-3.borde-12.mb-4(data-aos="fade-up")
           ul.lista-ul.lista-personalizada-1
             li
               i.fas.fa-database
@@ -489,8 +489,8 @@
               i.fas.fa-database
               span Algunos SGDB permiten administrar el catálogo de datos.
 
-        p.mb-0 Los SGBD son una herramienta muy útil, sin embargo, se podría decir que los SGBD son un poco más complejos, porque los usuarios ven más datos y sus relaciones, de los que realmente se necesitan.
-      .col-lg-4.order-first.order-lg-last
+        p.mb-0(data-aos="fade-down") Los SGBD son una herramienta muy útil, sin embargo, se podría decir que los SGBD son un poco más complejos, porque los usuarios ven más datos y sus relaciones, de los que realmente se necesitan.
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 400px;")
 
