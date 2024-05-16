@@ -14,7 +14,7 @@
         .bloque-texto-b.bloque-texto-personalizado-1.p-5(data-aos="fade-left")
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h4.mb-0 El conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información
+            h4.mb-0 El conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información.
             i.fas.fa-quote-right
           p.mb-0.position-relative (RAE, 2001).
       .col-lg-5(data-aos="zoom-in-out")
@@ -84,7 +84,7 @@
               span MI y SS un dato numérico de dos dígitos entre 00 y 59.
             li
               i.fas.fa-database
-              span Z un dato numérico de un digito (para representar milésimas de segundo).
+              span Z un dato numérico de un dígito (para representar milésimas de segundo).
 
         p.mb-0 Como este es el conjunto de datos de la primera columna, puede que use un término que describa lo anterior con una sola palabra que es TIMESTAMP, de esta forma esa primera columna puede quedar correctamente descrita como:
       .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
@@ -306,16 +306,16 @@
                 tbody
                   tr
                     td ORACLE
-                    td https://docs.oracle.com/cd/E11882_01/server.112/e41085/sqlqr06002.htm#SQLQR959
+                    td #[a.link-personalizado-1(target='_blank',href='https://docs.oracle.com/cd/E11882_01/server.112/e41085/sqlqr06002.htm#SQLQR959') https://docs.oracle.com/cd/E11882_01/server.112/e41085/sqlqr06002.htm#SQLQR959 #[i.ms-1.fas.fa-external-link-alt]]
                   tr
                     td PostgreSQL
-                    td https://www.postgresql.org/docs/13/datatype.html#DATATYPE-TABLE
+                    td #[a.link-personalizado-1(target='_blank',href='https://www.postgresql.org/docs/13/datatype.html#DATATYPE-TABLE') https://www.postgresql.org/docs/13/datatype.html#DATATYPE-TABLE #[i.ms-1.fas.fa-external-link-alt]]
                   tr
                     td MySQL
-                    td https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+                    td #[a.link-personalizado-1(target='_blank',href='https://dev.mysql.com/doc/refman/8.0/en/data-types.html') https://dev.mysql.com/doc/refman/8.0/en/data-types.html #[i.ms-1.fas.fa-external-link-alt]]
                   tr
                     td SQLServer
-                    td https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
+                    td #[a.link-personalizado-1(target='_blank',href='https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15') https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15 #[i.ms-1.fas.fa-external-link-alt]]
           
         .row.align-items-center.mb-4(data-aos="fade-left")
           .col-auto.d-none.d-sm-block
@@ -377,7 +377,7 @@
                 figure.mb-4.mb-md-0
                   img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 106px;")
               .col-md-9
-                p.mb-0 Las primeras bases de datos empleadas son las de estructura jerárquica. Las relaciones entre registros forman una estructura en árbol. En la actualidad, un ejemplo de estas bases de datos es la base de datos LDAP, usada para el sistema de directorio de datos tales como usuario, dispositivos, nombres, contraseñas, direcciones etc., dentro de una red de computadores.
+                p.mb-0 Las primeras bases de datos empleadas son las de estructura jerárquica. Las relaciones entre registros forman una estructura en árbol. En la actualidad, un ejemplo de estas bases de datos es la base de datos LDAP, usada para el sistema de directorio de datos tales como usuario, dispositivos, nombres, contraseñas, direcciones, etc. dentro de una red de computadores.
           div.ms-md-5(titulo="Bases de datos con estructura en red")
             .row.align-items-center.mb-4
               .col-md-3
@@ -412,7 +412,7 @@
     
     .row.align-items-center.mb-3
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Cada tipo de bases de datos tiene un ámbito de aplicación en el que su desempeño es mejor. Por ejemplo, las bases de datos jerárquicas tienen un mejor desempeño en operaciones de consulta de datos puntuales, mientras que las de datos relacionales son precisas para garantizar la calidad de los datos y la no repetición de los mismos, aunque no muy optimizadas para hacer consultas, y, finalmente, las multidimensionales, son muy útiles para análisis estadístico de datos históricos de volúmenes inmensos de datos. Aparte del tipo de datos, existe otro tipo de clasificaciones ya no según la estructura en que se almacenan los datos, sino de acuerdo con la naturaleza de los datos.
+        p.mb-0 Cada tipo de bases de datos tiene un ámbito de aplicación en el que su desempeño es mejor. Por ejemplo, las bases de datos jerárquicas tienen un mejor desempeño en operaciones de consulta de datos puntuales, mientras que las de datos relacionales son precisas para garantizar la calidad de los datos y la no repetición de los mismos, aunque no muy optimizadas para hacer consultas, y, finalmente, las multidimensionales, son muy útiles para análisis estadístico de datos históricos de volúmenes inmensos de datos. Aparte del tipo de datos, existe otro tipo de clasificaciones de acuerdo con la naturaleza de los datos, sino de acuerdo con la naturaleza de los datos.
       .col-lg-4.order-first.order-lg-last(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/22.png",style="max-width: 400px;")

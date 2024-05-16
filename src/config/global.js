@@ -184,7 +184,7 @@ export default {
         'Silberschatz, A., Korth, H. F., Sudarshan, S., Pérez, F. S., Santiago, A. I., y Sánchez, A. V. (2006). Fundamentos de bases de datos. McGrawHill.',
       tipo: 'PDF',
       link:
-        'http://ceneval.isi.uson.mx/CENEVAL/4Implantacion%20de%20infraestructura/Fundamentos%20de%20base%20de%20datos.pdf',
+        'http://biblioteca.univalle.edu.ni/files/original/01aebde3cc06dce33f2538aa2724eb2541cb9473.pdf',
     },
   ],
   glosario: [
@@ -212,7 +212,8 @@ export default {
     {
       referencia:
         'Kyocera. (2021). Conceptos sobre base de datos orientada a objetos. Kyocera.',
-      link: 'https://rb.gy/5deqdh',
+      link:
+        'https://www.kyoceradocumentsolutions.es/es/smarter-workspaces/business-challenges/paperless/conceptos-sobre-base-de-datos-orientada-a-objetos.html#:~:text=Una%20base%20de%20datos%20orientada%20a%20objetos%20es%20un%20sistema,en%20programaci%C3%B3n%20orient',
     },
     {
       referencia:
@@ -234,7 +235,7 @@ export default {
       referencia:
         'Silberschatz, A., Korth, H. F., Sudarshan, S., Pérez, F. S., Santiago, A. I., y Sánchez, A. V. (2006). Fundamentos de bases de datos. McGrawHill',
       link:
-        'http://ceneval.isi.uson.mx/CENEVAL/4Implantacion%20de%20infraestructura/Fundamentos%20de%20base%20de%20datos.pdf',
+        'http://biblioteca.univalle.edu.ni/files/original/01aebde3cc06dce33f2538aa2724eb2541cb9473.pdf',
     },
   ],
   creditos: [
@@ -267,11 +268,6 @@ export default {
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable Línea de Producción Antioquia',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
       ],
     },
     {
@@ -285,6 +281,16 @@ export default {
         {
           nombre: 'Edwin Sneider Velandia Suarez',
           cargo: 'Desarrollador Fullstack',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Actividad Didáctica',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

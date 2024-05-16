@@ -452,39 +452,44 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Regla de borrado
 
-    p.mb-5(data-aos="fade-left") Define el comportamiento a la pregunta: ¿qué ocurre si se intenta borrar la fila referenciada por la clave foránea de otra tabla? Para lo cual, el SGBD implementa una de las siguientes opciones:
+    p.mb-3(data-aos="fade-left") Define el comportamiento a la pregunta: ¿qué ocurre si se intenta borrar la fila referenciada por la clave foránea de otra tabla? Para lo cual, el SGBD implementa una de las siguientes opciones:
 
-    .fondo-personalizado-6.mb-5(data-aos="fade-right")
-      .fondo-personalizado-6__contenido.pb-3
-        SlyderF.slider-personalizado-1.pb-5(columnas="col-lg-6 col-xl-4")
-          .fondo-color-primario.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-1 1
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center.text-white Restringir:
-              p.mb-4.text-white.text-center no se permite borrar la fila referenciada.
-          .fondo-color-sistema-j.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-2 2
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center Cascada:
-              p.mb-4.text-center se borra la fila referenciada y también se borran las filas que la referencian, mediante la clave foránea en la otra tabla.
-          .fondo-color-primario.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-1 3
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center.text-white Poner null:
-              p.mb-4.text-white.text-center se borra la fila referenciada y las filas que la referenciaban ponen en nulo la clave foránea (solo si acepta nulos).
-          .fondo-color-sistema-j.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-2 4
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center Valor por defecto:
-              p.mb-4.text-center se borra la fila referenciada y las filas que la referenciaban ponen en la clave foránea el valor por defecto que defina la regla.
+    .fondo-personalizado-10.mb-5
+      .fondo-personalizado-10__contenido.py-5(style="padding-bottom:7rem !important;")
+        .row(data-aos="flip-up")
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 89px;")
+              h4.mb-4.text-center Restringir
+              p.mb-0.text-center No se permite borrar la fila referenciada.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 89px;")
+              h4.mb-4.text-center Cascada
+              p.mb-0.text-center Se borra la fila referenciada y también se borran las filas que la referencian, mediante la clave foránea en la otra tabla.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 89px;")
+              h4.mb-4.text-center Poner null
+              p.mb-0.text-center Se borra la fila referenciada y las filas que la referenciaban ponen en nulo la clave foránea (solo si acepta nulos).
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/114.png",style="max-width: 89px;")
+              h4.mb-4.text-center Valor por defecto
+              p.mb-0.text-center Se borra la fila referenciada y las filas que la referenciaban ponen en la clave foránea el valor por defecto que defina la regla.
+
     .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade")
       .row
         .col-auto.pe-0
@@ -495,37 +500,40 @@
 
     p.mb-5(data-aos="zoom-in-up") Define el comportamiento a la pregunta: ¿qué sucede si se intenta modificar el valor de la clave primaria de la fila referenciada por la clave foránea por otra tabla? Para lo cual, el SGBD implementa una de las siguientes opciones:
 
-    .fondo-personalizado-8.mb-5(data-aos="flip-up")
-      .fondo-personalizado-8__contenido
-        SlyderF.slider-personalizado-1.py-5(columnas="col-lg-6 col-xl-4")
-          .fondo-color-primario.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-1 1
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center.text-white Restringir:
-              p.mb-4.text-white.text-center no se permite editar la fila referenciada.
-          .fondo-color-sistema-j.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-2 2
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center Cascada:
-              p.mb-4.text-center se actualiza la fila referenciada y también se actualiza las filas que la referencian mediante la clave foránea en la otra tabla.
-          .fondo-color-primario.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-1 3
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center.text-white Poner null:
-              p.mb-4.text-white.text-center se actualiza la fila referenciada y las filas que la referenciaban ponen a nulo la clave foránea (solo si acepta nulos).
-          .fondo-color-sistema-j.borde-20.p-4.h-100
-            .position-relative
-              span.texto-num-2 4
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 87px;")
-              p.mb-0.fw-bold.text-center Valor por defecto:
-              p.mb-4.text-center se edita la fila referenciada y las filas que la referenciaban ponen en la clave foránea el valor por defecto que defina la regla.
+    .row.mb-4(data-aos="flip-up")
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 89px;")
+              h4.mb-4.text-center Restringir
+              p.mb-0.text-center No se permite editar la fila referenciada.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 89px;")
+              h4.mb-4.text-center Cascada
+              p.mb-0.text-center Se actualiza la fila referenciada y también se actualiza las filas que la referencian mediante la clave foránea en la otra tabla.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 89px;")
+              h4.mb-4.text-center Poner null
+              p.mb-0.text-center Se actualiza la fila referenciada y las filas que la referenciaban ponen a nulo la clave foránea (solo si acepta nulos).
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 89px;")
+              h4.mb-4.text-center Valor por defecto
+              p.mb-0.text-center Se edita la fila referenciada y las filas que la referenciaban ponen en la clave foránea el valor por defecto que defina la regla.
+
 
     p.mb-4(data-aos="flip-up") De esta forma, una vez definida la estructura del modelo de datos, se debe determinar el comportamiento de estas operaciones, lo cual generalmente responde a requerimiento del sistema de información.
 
@@ -632,7 +640,7 @@
     .fondo-personalizado-burbuja(data-aos="zoom-in-up")
       .burbuja.left(style="bottom: 0;")
       .fondo-personalizado-burbuja__contenido.pb-5
-        .row.justify-content-center
+        .row.justify-content-center.mb-4
           .col-lg-4.col-md-8
             .bloque-codigo-personalizado
               .cabecera-bloque-codigo.p-4.py-3
@@ -643,10 +651,29 @@
               .cuerpo-bloque-codigo.p-4
                 code
                   | INSERT INTO persona (id_persona, nombres, apellidos, correo) VALUES (1, 'Ana lis', 'Mendez, 'ana@rmail.com');
-                  br
+        .row.justify-content-center.mb-4
+          .col-lg-4.col-md-8
+            .bloque-codigo-personalizado
+              .cabecera-bloque-codigo.p-4.py-3
+                .bloque-codigo-circulos 
+                  .bloque-codigo-circulo.c1
+                  .bloque-codigo-circulo.c2
+                  .bloque-codigo-circulo.c3
+              .cuerpo-bloque-codigo.p-4
+                code
                   | UPDATE persona SET nombres = 'Ana Lis' WHERE id_persona = 1;
-                  br
+        .row.justify-content-center.mb-4
+          .col-lg-4.col-md-8
+            .bloque-codigo-personalizado
+              .cabecera-bloque-codigo.p-4.py-3
+                .bloque-codigo-circulos 
+                  .bloque-codigo-circulo.c1
+                  .bloque-codigo-circulo.c2
+                  .bloque-codigo-circulo.c3
+              .cuerpo-bloque-codigo.p-4
+                code
                   | DELETE FROM persona WHERE id_persona = 1;
+    
 
     .fondo-personalizado-burbuja(data-aos="fade-left")
       .burbuja.left(style="bottom: 0;")      

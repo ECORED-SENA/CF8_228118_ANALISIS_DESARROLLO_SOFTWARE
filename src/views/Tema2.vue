@@ -81,13 +81,13 @@
       .burbuja2.d-lg-none(style="bottom: -100px;left: 40px;")
       .fondo-personalizado-burbuja__contenido.p-4.py-5.py-lg-4(data-aos="zoom-in-out")
         figure.d-none.d-lg-block
-          img.mx-auto(src="@/assets/curso/temas/32.svg",style="max-width: 1029px;",alt="Imagen que representa la entidad relación persona cuenta bancaria.")
+          img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 1029px;",alt="Imagen que representa la entidad relación persona cuenta bancaria.")
         figure.d-lg-none
-          img.mx-auto(src="@/assets/curso/temas/33.svg",style="max-width: 1029px;",alt="Imagen que representa la entidad relación persona cuenta bancaria.")
+          img.mx-auto(src="@/assets/curso/temas/33.png",style="max-width: 458px;",alt="Imagen que representa la entidad relación persona cuenta bancaria.")
 
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p.mb-4 Para una base de datos de un sistema bancario consistente en clientes (es decir personas) y sus cuentas bancarias, en la figura anterior se muestra el diagrama Entidad Relación. En ells se indica que hay dos entidades que son persona y cuenta, con los atributos descritos anteriormente para cada una. El diagrama también representa la relación titular entre persona y cuenta.
+        p.mb-4 Para una base de datos de un sistema bancario consistente en clientes (es decir personas) y sus cuentas bancarias, en la figura anterior se muestra el diagrama Entidad Relación. En ellos se indica que hay dos entidades que son persona y cuenta, con los atributos descritos anteriormente para cada una. El diagrama también representa la relación titular entre persona y cuenta.
         .row.mb-5
           .col-auto.d-none.d-md-block
             img(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
@@ -268,8 +268,8 @@
               figure
                 img.mx-auto(src='@/assets/curso/temas/48.png',style="max-width: 153px;")
             
-          h2.text-center.mb-4.text-white Superclave:
-          p.text-white es un conjunto de uno o más atributos que, tomados juntos, permiten identificar de forma única una entidad en el conjunto de entidades. Por ejemplo, el atributo id_persona del conjunto de entidades persona, es suficiente para distinguir una persona cliente del banco de las otras. Así, id_persona es una superclave. Análogamente, la combinación de identificación y país es una superclave del conjunto de entidades persona. El atributo correo de persona es otra superclave, pero el atributo nombres no lo es, porque varias personas podrían tener el mismo nombre.
+          h2.text-center.mb-4.text-white Superclave
+          p.text-white Es un conjunto de uno o más atributos que, tomados juntos, permiten identificar de forma única una entidad en el conjunto de entidades. Por ejemplo, el atributo id_persona del conjunto de entidades persona, es suficiente para distinguir una persona cliente del banco de las otras. Así, id_persona es una superclave. Análogamente, la combinación de identificación y país es una superclave del conjunto de entidades persona. El atributo correo de persona es otra superclave, pero el atributo nombres no lo es, porque varias personas podrían tener el mismo nombre.
 
         .col-md.tarjeta.color-primario.text-white.p-5(data-aos="fade-left")
           .row.justify-content-center.mb-4
@@ -277,8 +277,8 @@
               figure
                 img.mx-auto(src='@/assets/curso/temas/48.png',style="max-width: 153px;")
             
-          h2.text-center Clave primaria:
-          p se emplea el término clave primaria para nombrar una clave candidata que es elegida por el diseñador o analista de la base de datos como clave principal para identificar las tuplas dentro de una entidad. Una clave (primaria, candidata y superclave) es una propiedad del conjunto de entidades, más que de las entidades individuales. Dos tuplas individuales en el conjunto, no pueden tener el mismo valor en sus atributos clave primaria al mismo tiempo. La designación de una clave primaria es en sí una restricción que modela una característica del mundo real.
+          h2.text-center Clave primaria
+          p Se emplea el término clave primaria para nombrar una clave candidata que es elegida por el diseñador o analista de la base de datos como clave principal para identificar las tuplas dentro de una entidad. Una clave (primaria, candidata y superclave) es una propiedad del conjunto de entidades, más que de las entidades individuales. Dos tuplas individuales en el conjunto, no pueden tener el mismo valor en sus atributos clave primaria al mismo tiempo. La designación de una clave primaria es en sí una restricción que modela una característica del mundo real.
     
     Separador
 
@@ -403,7 +403,7 @@
 
     .row.mb-5
       .col-lg-7(data-aos="flip-right")
-        p.mb-0 ÇEn una relación de muchos a muchos, una fila de la tabla A puede tener relación con muchas filas en la tabla B y también, en sentido contrario, una fila de la tabla B con respecto de varias filas de la tabla A. Esta relación se crea definiendo una tercera tabla denominada tabla de relación. Esta nueva tabla tiene una clave principal de la tabla compuesta de las claves foráneas de la tabla A y de la B.
+        p.mb-0 En una relación de muchos a muchos, una fila de la tabla A puede tener relación con muchas filas en la tabla B y también, en sentido contrario, una fila de la tabla B con respecto de varias filas de la tabla A. Esta relación se crea definiendo una tercera tabla denominada tabla de relación. Esta nueva tabla tiene una clave principal de la tabla compuesta de las claves foráneas de la tabla A y de la B.
       .col-lg-5.order-first.order-lg-last(data-aos="flip-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/62.png",style="max-width: 502px;")
@@ -431,9 +431,9 @@
       .burbuja2.d-lg-none(style="bottom: -100px;left: 40px;")
       .fondo-personalizado-burbuja__contenido.p-4.py-5.py-lg-4
         figure.d-none.d-lg-block
-          img.mx-auto(src="@/assets/curso/temas/64.svg",style="max-width: 1030px;",alt="Imagen que presenta un diagrama de entidad de publicaciones bibliográficas.")
+          img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 1030px;",alt="Imagen que presenta un diagrama de entidad de publicaciones bibliográficas.")
         figure.d-lg-none
-          img.mx-auto(src="@/assets/curso/temas/65.svg",style="max-width: 451px;",alt="Imagen que presenta un diagrama de entidad de publicaciones bibliográficas.")
+          img.mx-auto(src="@/assets/curso/temas/65.png",style="max-width: 451px;",alt="Imagen que presenta un diagrama de entidad de publicaciones bibliográficas.")
     
     .row.mb-4(data-aos="flip-up")
       .col-lg-7.mb-4.mb-lg-0
@@ -485,33 +485,38 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/71.png",style="max-width: 502px;")
 
-    .fondo-personalizado-6.pos-1.mb-5(data-aos="fade")
-      .fondo-personalizado-6__contenido.pb-5
-        SlyderF.slider-personalizado-1.pb-5(columnas="col-lg-6 col-xl-4")
-          .fondo-color-primario.borde-20.p-3.h-100
-            .position-relative
-              span.texto-num-1 1
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
-              p.mb-4.text-white Dividir una tabla con muchas columnas.
-          .fondo-color-sistema-j.borde-20.p-3.h-100
-            .position-relative
-              span.texto-num-2 2
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
-              p.mb-4 Aislar parte de una tabla por motivos de seguridad.
-          .fondo-color-primario.borde-20.p-3.h-100
-            .position-relative
-              span.texto-num-1 3
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
-              p.mb-4.text-white Almacenar datos de corta duración y que podrían eliminarse fácilmente, borrando la tabla periódicamente.
-          .fondo-color-sistema-j.borde-20.p-3.h-100
-            .position-relative
-              span.texto-num-2 4
-              figure.mb-5
-                img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 87px;")
-              p.mb-4 Almacenar información que solo se aplique a un subconjunto de la tabla principal.
+    .fondo-personalizado-10.mb-5
+      .fondo-personalizado-10__contenido.py-5
+        .row(data-aos="flip-up")
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 89px;")
+              p.mb-0.text-center Dividir una tabla con muchas columnas.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 89px;")
+              p.mb-0.text-center Aislar parte de una tabla por motivos de seguridad.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 89px;")
+              p.mb-0.text-center Almacenar datos de corta duración y que podrían eliminarse fácilmente, borrando la tabla periódicamente.
+          .col-lg-3.col-md-6.mb-4
+            .fondo-personalizado-9.pos-1.px-4.pb-5.h-100
+              .d-flex
+                .fondo-color-sistema-m.p-4.borde-23.mb-5.mx-auto.d-inline-block
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 89px;")
+              p.mb-0.text-center Almacenar información que solo se aplique a un subconjunto de la tabla principal.
+
 
     p.mb-5(data-aos="fade") Volviendo al ejemplo del banco, esta vez se supone que la empresa necesita información sobre sus empleados lo que, a la vez, pueden ser clientes del banco.
 
