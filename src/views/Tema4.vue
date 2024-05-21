@@ -22,8 +22,10 @@
         p.mb-0 A continuación, se presenta el paso a paso de la descarga e instalación del entorno desarrollo WEB XAMPP:
     
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4CWzy5fWOXQ?si=zsGm22VgG0iLpYcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Descarga e instalación de entorno desarrollo WEB XAMPP
+
 
     .row.mb-5
       .col-auto.d-none.d-md-block
@@ -32,7 +34,8 @@
         p.mb-0 Continuemos con la descarga e instalación de herramienta CASE MyQL #[em Workbench]:
     
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/C4bOTdaxoCM?si=Yg87QAmxA_gUXDtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Descarga en instalación de herramienta CASE MyQL Workbench
 
     .row.mb-5

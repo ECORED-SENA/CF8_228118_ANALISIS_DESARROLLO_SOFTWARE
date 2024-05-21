@@ -31,8 +31,10 @@
     p.mb-5(data-aos="zoom-in-up") A continuación, lo invitamos a ver el siguiente video sobre normalización.
 
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/GF0n6Spz6zE?si=QMPKcJ4NC46KreDj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Normalización
+
     
     p.mb-5(data-aos="fade") La siguiente tabla nos presenta las tres formas normales y sus principios.
     
