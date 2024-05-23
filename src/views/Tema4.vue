@@ -45,7 +45,8 @@
         p.mb-0 Ahora, estudiemos el diseño de una base de datos con MyQL #[em Workbench] relación de muchos a muchos:
     
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VjZ_hkY_RWk?si=9KIcGJnsI25S1KhR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Diseño de una base de datos con MyQL Workbench relación de muchos a muchos
 
     .row.mb-5
@@ -55,7 +56,8 @@
         p.mb-0 Continuemos con el diseño de una base de datos con MyQL #[em Workbench] relación de uno a muchos:
     
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zok6t0hTp4Y?si=IKFsPcrqAHxxUjTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Diseño de una base de datos con MyQL Workbench relación de uno a muchos
 
     .row.mb-5
@@ -65,9 +67,9 @@
         p.mb-0 Y finalicemos con el diseño de una base de datos con MyQL #[em Workbench] relación de uno a uno:
     
     figure.mb-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/temas/img-video-temporal.png")
+      .video 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ztPJpKJf_SU?si=N4VD7AsDgkuxXEha" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Diseño de una base de datos con MyQL Workbench relación de uno a uno
-
 
 </template>
 
