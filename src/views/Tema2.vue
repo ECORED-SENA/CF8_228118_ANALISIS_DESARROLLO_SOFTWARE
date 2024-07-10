@@ -92,7 +92,7 @@
           .col-auto.d-none.d-md-block
             img(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
           .col
-            p.mb-0 Se debe tener en cuenta que el modelo relacional convierte las entidades en tablas, por lo tanto, se puede poner como ejemplo que las entidades personas se conviertan en tablas como muestra la siguiente figura.
+            p.mb-0 Se debe tener en cuenta que el modelo relacional convierte las entidades en tablas, por lo tanto, se puede poner como ejemplo que las entidades personas se conviertan en tablas, como muestra la siguiente figura.
       .col-lg-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/34.png",style="max-width: 505px;")
@@ -172,7 +172,7 @@
                     img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 110px;")
                 .col
                   p.mb-4 #[b Ejemplo]
-                  p.mb-0 En la tabla persona de la figura 3, es sabido por todos que no existen dos personas con el mismo número de documento de identidad, por lo tanto, se puede emplear el atributo identificación como clave de la tabla persona. Así mismo, no deben existir dos cuentas bancarias con el mismo número de cuenta, entonces, el atributo numero_cuenta se puede emplear como clave de la tabla cuenta. Esto se puede presentar en un diagrama de entidad relación cuando a los atributos que componen una clave, se les marca con subrayado el nombre del atributo tal como se muestra en la siguiente figura.
+                  p.mb-0 En la tabla persona de la figura 3, es sabido por todos que no existen dos personas con el mismo número de documento de identidad, por lo tanto, se puede emplear el atributo identificación como clave de la tabla persona. Así mismo, no deben existir dos cuentas bancarias con el mismo número de cuenta, entonces, el atributo numero_cuenta se puede emplear como clave de la tabla cuenta. Esto se puede presentar en un diagrama de entidad relación cuando a los atributos que componen una clave, se les marca con subrayado el nombre del atributo, tal como se muestra en la siguiente figura.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 4.] Claves de las entidades persona y cuenta
@@ -189,7 +189,7 @@
         figure.d-lg-none
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 1029px;",alt="Imagen que representa las claves de las entidades persona y cuenta.")
     
-    p.mb-0(data-aos="fade") Nótese como los atributos #[b identificacion y numero_cuenta] tiene subrayada la palabra identificadora del atributo, representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
+    p.mb-0(data-aos="fade") Nótese como los atributos #[b identificación y numero_cuenta] tiene subrayada la palabra identificadora del atributo, representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
     
     .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="flip-up")
       .row
@@ -204,8 +204,8 @@
         p.mb-4 Supongamos el caso que el banco es internacional, que es un banco moderno y solo diseñado para transacciones vía internet o virtuales, por lo tanto, el correo del cliente (persona) es necesario y obligatorio.
         p.mb-4 En este caso, ocurren un par de asuntos a analizar: al ser internacional el banco, puede existir un cliente en un país con el mismo número de identificación de otro cliente en otro país, por lo tanto, el atributo #[b identificación] ya no puede ser una clave de la entidad, sin embargo, es importante y obligatorio saber a qué país corresponde cada cliente, el conjunto de datos #[b identificación y país] y si ambos cumplen con el criterio de unidad, porque no existen dos personas en el mismo país con el mismo número de identificación.
         .fondo-color-sistema-n.p-4.borde-10
-          p.mb-4 #[b Clave compuesta:] si se escogiera el conjunto de atributos #[b identificación y país] como clave de la entidad, se está haciendo una clave compuesta, porque es un conjunto de más de un atributo el que se usa para este fin.
-          p.mb-0 #[b Clave compuesta:] El otro asunto a considerar es que se puede emplear el correo electrónico como clave, porque no existen dos usuarios con el mismo #[b correo] electrónico, esto es válido si se definió como regla del banco que cada cliente tenga su correo electrónico diferente de los demás. Estos dos casos se representan en la siguiente figura.
+          p.mb-4 #[b Clave compuesta:] si se escogiera el conjunto de atributos, #[b identificación y país] como clave de la entidad, se está haciendo una clave compuesta, porque es un conjunto de más de un atributo el que se usa para este fin.
+          p.mb-0 #[b Clave compuesta:] el otro asunto a considerar es que se puede emplear el correo electrónico como clave, porque no existen dos usuarios con el mismo #[b correo] electrónico, esto es válido si se definió como regla del banco que cada cliente tenga su correo electrónico diferente de los demás. Estos dos casos se representan en la siguiente figura.
       .col-lg-5.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 505px;")
@@ -326,7 +326,7 @@
             .col
               p.mb-0.text-white A esta representación se le denomina multiplicidad #[b 1:N] y se lee de la siguiente forma: #[b UNA persona] es titular de #[b N] cuentas bancarias, de esta forma una persona puede tener N (que puede ser cero, uno o más de una) cuentas bancarias. Se puede leer en forma inversa que el resultado es el mismo: muchas o varias cuentas bancarias pueden tener un mismo titular.
     
-    p.mb-5(data-aos="zoom-in-out") Cuando una relación de es uno a muchos y se mapea un modelo de base de datos relacional, la relación #[b titular] (rombo) se termina convirtiendo una columna de la tabla de los muchos.
+    p.mb-5(data-aos="zoom-in-out") Cuando una relación es de uno a muchos y se mapea un modelo de base de datos relacional, la relación #[b titular] (rombo) se termina convirtiendo una columna de la tabla de los muchos.
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-8

@@ -222,7 +222,7 @@ export default {
     },
     {
       referencia:
-        'Microsoft. (2021). Descripción de normalización de base de datos. Microsoft.',
+        'Microsoft. (2021). Fundamentos de la normalización de bases de datos. Microsoft.',
       link:
         'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description',
     },

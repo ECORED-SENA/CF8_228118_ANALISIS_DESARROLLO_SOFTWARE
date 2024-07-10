@@ -615,7 +615,7 @@
                   figure.mb-4.mb-md-0
                     img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 86px;")
                 .col
-                  p.mb-0 Nota: cada atributo se define en una línea separado por una coma, se agregan restricciones de no nulidad (NOT NULL) al final la sentencia termina con punto y coma. Ahora, así se borraría esa misma tabla:
+                  p.mb-0 Nota: cada atributo se define en una línea separada por una coma, se agregan restricciones de no nulidad (NOT NULL) al final la sentencia termina con punto y coma. Ahora, así se borraría esa misma tabla:
         
         .row.justify-content-center.mb-4
           .col-lg-3.col-md-5.col-sm-7
